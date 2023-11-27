@@ -6,4 +6,5 @@ color: white;
 border: none;
 text-transform: capitalize;
 font-weight: 500;
+width: fit-content;
 }
