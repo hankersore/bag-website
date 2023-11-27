@@ -1,0 +1,9 @@
+.sponsors {
+    display: flex;
+    justify-content: space-between;
+    margin: 130px 0;
+}
+
+.sponsors img {
+    width: 250px;
+}

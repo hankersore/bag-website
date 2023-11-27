@@ -6,6 +6,7 @@ import Category from './components/category/Category';
 import About from './components/about/About';
 import Product from './components/product/Product';
 import News from './components/news/News';
+import Sponsors from './components/sponsors/Sponsors';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
     <About/>
     <Product/>
     <News/>
+    <Sponsors/>
     </>
   )
 }
