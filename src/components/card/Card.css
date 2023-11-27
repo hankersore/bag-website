@@ -1,0 +1,16 @@
+.card img {
+    width: 220px;
+    height: 250px;
+}
+.card {
+    padding: 20px ;
+    border-radius: 10px;
+border: 1px solid #A3A3A3;
+opacity: 0.5;
+width: 265px;
+transition: 0.3s;
+}
+
+.card:hover {
+    opacity: 1;
+}

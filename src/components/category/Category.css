@@ -1,0 +1,30 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    margin-bottom: 130px;
+    row-gap: 50px;
+}
+
+.buttons {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   margin-top: 130px;
+}
+
+.buttons button {
+    color: #2F2F2F;
+font-size: 20px;
+font-weight: 500;
+line-height: 150%; 
+text-transform: capitalize;
+border: none;
+background-color: transparent;
+padding-bottom: 40px;
+transition: 0.3s;
+margin-bottom: 40px;
+}
+
+.buttons button:focus {
+   border-bottom: 5px solid #f59b00; 
+}
