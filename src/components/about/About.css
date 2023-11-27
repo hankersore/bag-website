@@ -1,0 +1,33 @@
+.about {
+    display: flex;
+    gap: 100px;
+}
+.about img {
+    width: 50%;
+}
+.about__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about__content  h2 {
+    color: #F59B00;
+font-size: 20px;
+font-weight: 500;
+line-height: 150%; 
+text-transform: uppercase;
+}
+
+.about__content h1 {
+    color: #2F2F2F;
+font-size: 31px;
+font-weight: 700;
+line-height: 140%; 
+text-transform: capitalize;
+}
+
+.about__content p {
+    color: #2F2F2F;
+    opacity: 0.9;
+}
