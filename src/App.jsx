@@ -5,6 +5,7 @@ import Showcase from './components/showcase/Showcase';
 import Category from './components/category/Category';
 import About from './components/about/About';
 import Product from './components/product/Product';
+import News from './components/news/News';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
     <Category/>
     <About/>
     <Product/>
+    <News/>
     </>
   )
 }
