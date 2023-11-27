@@ -1,0 +1,38 @@
+footer {
+    background: rgba(47, 47, 47, 0.92);
+    padding: 100px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.footer ul img {
+    width: 80px;
+}
+.footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #fff;
+    list-style: none;
+}
+.footer ul li {
+    opacity: 0.4;
+    text-transform: capitalize;
+}
+
+.footer ul h1 {
+font-size: 20px;
+font-weight: 500;
+line-height: 150%; 
+text-transform: capitalize;
+}
+
+.footer ul input {
+    background-color: transparent;
+    border-radius: 10px;
+border: 1px solid #FFF;
+opacity: 0.25;
+padding: 12px 20px;
+}
